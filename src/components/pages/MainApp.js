@@ -43,6 +43,7 @@ const MainApp = () => {
         setCartState([...cartState, {id: product.id, name:product.name, quantity:1, price: product.price}])
     }
 
+    // Remover producto
     const handleRemoveProduct = ( product ) => {
 
         // Si el producto existe. restale la cantidad total y actualiza el precio
